@@ -1,2 +1,8 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Ignore shaderlab in GitHub language stats
+*.shader linguist-detectable=false
+
+# Ignore TMP auto-generated assets
+Assets/TextMesh Pro/** linguist-generated
